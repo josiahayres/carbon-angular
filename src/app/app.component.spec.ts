@@ -1,20 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { UIShellModule } from 'carbon-components-angular/ui-shell/ui-shell.module';
-
-import {
-  NotificationModule,
-  UserAvatarModule,
-  AppSwitcherModule,
-} from '@carbon/icons-angular';
-
 import { HeaderComponent } from './header/header.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule, UIShellModule],
+      imports: [RouterTestingModule],
       declarations: [AppComponent, HeaderComponent],
     }).compileComponents();
   });

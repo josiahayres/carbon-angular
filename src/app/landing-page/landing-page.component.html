@@ -1,0 +1,44 @@
+<div ibmRow class="landing-page__banner">
+    <div ibmCol [columnNumbers]="{'lg': 16}">
+        <ibm-breadcrumb [noTrailingSlash]="true">
+            <ibm-breadcrumb-item href="/" aria-label="Page navigation"> Getting started </ibm-breadcrumb-item>
+        </ibm-breadcrumb>
+        <h1 class="landing-page__heading">Design &amp; build with Carbon</h1>
+    </div>
+</div>
+<div ibmRow class="landing-page__r2">
+    <div ibmCol class="bx--no-gutter">
+        <ibm-tabs aria-label="Tab Navigation">
+            <ibm-tab heading="About">
+                <div ibmGrid class="bx--grid--no-gutter bx--grid--full-width">
+                    <div ibmRow class="landing-page__tab-content">
+                        <div ibmCol [columnNumbers]="{'md': 4, 'lg': 7}">7/16</div>
+                        <div ibmCol class="bx--offset-lg-1" [columnNumbers]="{'md': 4, 'lg': 8}">
+                            8/16
+                        </div>
+                    </div>
+                </div>
+            </ibm-tab>
+            <ibm-tab heading="Design">
+                <div ibmGrid class="bx--grid--no-gutter bx--grid--full-width">
+                    <div ibmRow class="landing-page__tab-content">
+                        <div ibmCol [columnNumbers]="{'lg': 16}">
+                            Rapidly build beautiful and accessible experiences. The Carbon kit
+                            contains all resources you need to get started.
+                        </div>
+                    </div>
+                </div>
+            </ibm-tab>
+            <ibm-tab heading="Develop">
+                <div ibmGrid class="bx--grid--no-gutter bx--grid--full-width">
+                    <div ibmRow class="landing-page__tab-content">
+                        <div ibmCol [columnNumbers]="{'lg': 16}">
+                            Carbon provides styles and components in Vanilla, React, Angular,
+                            and Vue for anyone building on the web.
+                        </div>
+                    </div>
+                </div>
+            </ibm-tab>
+        </ibm-tabs>
+    </div>
+</div>

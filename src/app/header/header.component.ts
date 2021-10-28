@@ -1,4 +1,5 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
+import { UIShellModule } from 'carbon-components-angular/ui-shell/ui-shell.module';
 
 @Component({
   selector: 'app-header',

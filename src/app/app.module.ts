@@ -5,16 +5,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
-import { UIShellModule } from 'carbon-components-angular';
+import {
+  UIShellModule,
+  GridModule,
+  BreadcrumbModule,
+  ButtonModule,
+  TabsModule,
+} from 'carbon-components-angular';
 
 import {
   NotificationModule,
   UserAvatarModule,
   AppSwitcherModule,
 } from '@carbon/icons-angular';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, LandingPageComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,6 +29,10 @@ import {
     NotificationModule,
     UserAvatarModule,
     AppSwitcherModule,
+    GridModule,
+    BreadcrumbModule,
+    ButtonModule,
+    TabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

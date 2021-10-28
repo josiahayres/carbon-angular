@@ -5,17 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
-import {
-  UIShellModule,
-  IconModule,
-  IconService,
-} from 'carbon-components-angular';
+import { UIShellModule } from 'carbon-components-angular';
 
 import {
   NotificationModule,
   UserAvatarModule,
   AppSwitcherModule,
 } from '@carbon/icons-angular';
+
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
   imports: [
